@@ -13,63 +13,24 @@
 - the second 2
 - the third 3
 	cat >> tf_2.txt
-	the first 1
-	the second 2
-	the third 3
  7. «айти в папку inner_dir_1
 	cd inner_dir_1
  8. „ерез cat сделать текстовый файл tf_3.txt  c любыми строками
 	cat >> tf_3.txt
-	Anzhelika
-	Melnik
-	Group 33
  9. „ерез cat добавить в текстовый файл tf_3.txt строку Уthe second 2Ф
 	cat >> tf_3.txt
-	the second 2
  10. „ерез cat добавить в текстовый файл tf_3.txt строку Уthe sec 2Ф
 	cat >> tf_3.txt
-	the sec 2
  11. „ерез cat добавить в текстовый файл tf_2.txt строку Уthe sec 3Ф
 	cat >> tf_2.txt
-	the sec 3
  12. „ерез cat добавить в текстовый файл tf_3.txt строку Уthe SeCoNd 2Ф
 	cat >> tf_3.txt
-	the SeCoNd 2
  13. „ерез cat добавить в текстовый файл tf_2.txt строку Уthe seConD 2Ф
 	cat >> tf_2.txt
-	the seConD 2
  14. —делать текстовый файл tf_4.txt в котором будет 15 строк.
 	cat >> tf_4.txt
-	pwd
-	mkdir
-	cd
-	touch
-	ls -la
-	cat
-	mv
-	cp
-	find
-	tail
-	head
-	less
-	date
-	ls
-	ls -a
  15. —делать текстовый файл tF_5.txt в котором будет 13 строк.
 	cat >> tF_5.txt
-	rm
-	rm -r
-	clear
-	history
-	vim
-	grep
-	SECOND
-	txt
-	json
-	spartak
-	komunarka
-	home
-	haus
  16. ¬ывести список всех файлов в папке.
 	ls -la
  17. ¬ыйти из папки inner_dir_1
@@ -110,8 +71,6 @@
 	head -4 inner_dir_1/tF_5.txt
  35.  оманда в одну строку. —оздать папку и создать текстовый файл с содержиммым.
 	mkdir inner_dir_2 && cat >> inner_dir_2/tf_6.txt
-	Anzhelika
-	Melnik
  36.  оманда в одну строку. ѕереместить в любую одну папку текстовые файлы у которых в содержимом есть слово УsecФ
 	grep -l sec ./*.* | xargs mv -i -t inner_dir_2
  37.  оманда в одну строку. —копировать в любую одну папку текстовые файлы у которых в содержимом есть слово УsecФ
