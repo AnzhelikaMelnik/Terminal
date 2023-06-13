@@ -61,7 +61,8 @@ mv dir_3/2.json dir_1/2.json
 pwd
 mkdir folderlika
 cd folderlika
-
+	
+	chmod +x ./script.sh
  	./script.sh
 =====================
 1) Посмотреть где я - pwd
